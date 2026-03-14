@@ -7,8 +7,7 @@ st.title("OLA Ride Insights Dashboard")
 st.write("This project analyzes ride booking patterns, cancellations, and revenue insights.")
 
 # ===== Load Dataset (limited rows for faster loading) =====
-df = pd.read_csv("Dataset/ola_data_cleaned.csv")
-
+df = pd.read_csv("ola_data_cleaned.csv")
 # ===== Dataset Columns =====
 st.subheader("Dataset Columns")
 st.write(df.columns)
