@@ -34,7 +34,7 @@ st.bar_chart(rating_counts)
 # ===== Power BI Dashboard PDF =====
 st.subheader("Power BI Dashboard")
 
-pdf_file = "powerbi_visuals/Jashmiiii_internship_olaride.pdf"
+pdf_file = "Jashmiiii_internship_olaride.pdf"
 
 with open(pdf_file, "rb") as file:
     st.download_button(
@@ -43,4 +43,3 @@ with open(pdf_file, "rb") as file:
         file_name="OLA_Dashboard.pdf",
         mime="application/pdf"
     )
-    
